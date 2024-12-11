@@ -144,7 +144,6 @@ body {
 
         >div {
 
-           maxheight: 500px;
             
 
 
@@ -161,13 +160,8 @@ body {
 
             &:nth-child(2) {
                 
-                
-                > div {
-                    
-                
-
-
-                }
+                padding: 30px;
+          
 
             
             }
