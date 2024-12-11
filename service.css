@@ -121,7 +121,7 @@ body {
         >div {
             display: grid;
             place-items: center;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
 
             img {
                 width: 350px;
@@ -139,4 +139,37 @@ body {
     width: 100%;
     z-index: -100;
     top: 0;
+}
+
+
+
+@media(min-width: 1409px) and (max-width: 1458px){
+
+.first-container{
+
+
+> div{
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+}
+
+}
+
+@media(min-width: 1459px) and (max-width: 1912px){
+
+.container{
+
+
+    img{
+        max-width: 320px;
+    }
+}
+
+
 }
