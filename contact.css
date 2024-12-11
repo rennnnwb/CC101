@@ -23,7 +23,7 @@ body {
     place-content: center;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    width: 70%;
+    max-width: 100%;
 
     overflow: hidden;
 
@@ -63,7 +63,7 @@ body {
                     border-radius: 20px;
                     border: none;
                     font-family: "Poppins";
-                    max-width: 100%;
+                    width: 100%;
                 }
 
                 textarea{
