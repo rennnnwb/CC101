@@ -16,7 +16,7 @@ body {
     justify-content: space-evenly;
     position: relative;
 
-   
+
 
 
 
@@ -41,6 +41,20 @@ body {
 
     >div {
 
+        &:nth-child(1) {
+
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+
+        &:nth-child(2) {
+            display: flex;
+            flex-wrap: wrap;
+
+
+        }
 
         img {
             width: 450px;
@@ -109,7 +123,7 @@ body {
 
     .first-container {
 
-   
+
 
 
         >div {
@@ -137,33 +151,33 @@ body {
 
 
 
-@media(min-width: 1409px) and (max-width: 1458px){
+@media(min-width: 1409px) and (max-width: 1458px) {
 
-.first-container{
-
-
-> div{
-
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    .first-container {
 
 
-}
+        >div {
 
-}
-
-}
-
-@media(min-width: 1459px) and (max-width: 1912px){
-
-.container{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
 
 
-    img{
-        max-width: 320px;
+        }
+
     }
+
 }
+
+@media(min-width: 1459px) and (max-width: 1912px) {
+
+    .container {
+
+
+        img {
+            max-width: 320px;
+        }
+    }
 
 
 }
